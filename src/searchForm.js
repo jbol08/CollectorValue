@@ -12,7 +12,8 @@ function SearchForm({searchFunc}) {
 
 	const handleChange = (event) => {
 		setTerm(event.target.value);
-	};
+    };
+    
 
 	return (
 		<div className="SearchForm mb-3">
